@@ -1,5 +1,5 @@
 
-OrgaSnismo0, is based in the Game of life, designed by the mathematician John Conway.
+OrgaSnismo0, is based on the Game of life, designed by the mathematician John Conway.
 There´s a extensive information in Wikipedia.
 
 There´s nothing especial, it is one of the lots of versions of this game, but I believe to have gotten an acceptable performance, after to try many algorithms in order to get the next shape at every cicle.

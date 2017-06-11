@@ -14,6 +14,8 @@ When the game is started, the menú bar, wich functions are commented later, and
 
 A dialog for to change the size of the grid shown then, appears by clicking this radioButton. The grid size is 30 pixels by defect.
 
+![screen shot 2](https://github.com/Xadnem53/OrgaSnismo0-Windows/blob/master/Screen-Shots/shot2.png)
+
 Clicking over the Accept button at the grid size dialog, make the following elements to appear:
 
 Grid:  A new yellow color cell, is created every time that one click over a grid square.

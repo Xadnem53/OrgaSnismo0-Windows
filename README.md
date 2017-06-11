@@ -1,15 +1,17 @@
 
 OrgaSnismo0, is based on the Game of life, designed by the mathematician John Conway.
-There´s a extensive information in Wikipedia.
+There´s an extensive information in Wikipedia.
 
-There´s nothing especial, it is one of the lots of versions of this game, but I believe to have gotten an acceptable performance, after to try many algorithms in order to get the next shape at every cicle.
+There´s nothing special, it is one of the lots of versions of this game, but I believe to have gotten an acceptable performance, after to try many algorithms in order to get the next shape at every cicle.
 
 I would apreciate all the sugestions in order to improve the performance when the cell population is big ( more than 2000 ) wich happens mainly when some rules that make the population grow fast as 1357 / 1357 are stablised.
 
 Basic operation:
 
 When the game is started, the menú bar, wich functions are commented later, and a RadioButton with the label: 'Draw intial shape' are shown.
+
 ![screen shot 1](https://github.com/Xadnem53/OrgaSnismo0-Windows/blob/master/ScreenShots/imagen-1.png)
+
 A dialog for to change the size of the grid shown then, appears by clicking this radioButton. The grid size is 30 pixels by defect.
 
 Clicking over the Accept button at the grid size dialog, make the following elements to appear:

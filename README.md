@@ -18,7 +18,7 @@ A dialog for to change the size of the grid shown then, appears by clicking this
 
 Clicking over the Accept button at the grid size dialog, make the following elements to appear:
 
-**Grid: ** A new yellow color cell, is created every time that one click over a grid square.
+**Grid:** A new yellow color cell, is created every time that one click over a grid square.
 	A before created cell can be deleted just clicking over it again.
 
 **Numeric up & down:** With the label: 'Milliseconds', allows to change the cicle time set in 1 			    second by defect.
@@ -44,13 +44,13 @@ If the shape stabilizes or disappears, a message box is shown and the game is ov
 
 **File:**
 
-**New:** To start a new game. The rules and colors before stablished are kept.
+New: To start a new game. The rules and colors before stablished are kept.
 
-**Save: **Saves the current shape, rules and colors in a *.fm file.
+Save: Saves the current shape, rules and colors in a *.fm file.
 
-**Load:** Loads a shape with the rules and colors previously saved in a *.fm file.
+Load: Loads a shape with the rules and colors previously saved in a *.fm file.
 
-**Save image: **Saves a screen shot in a *.bmp file.
+Save image: Saves a screen shot in a *.bmp file.
 
 
 
@@ -84,8 +84,8 @@ Beep: Activated by defect, makes a beep to sound at every cicle. It is useful in
 
 Automatic image saver: When it is activated, a directory chooser dialog is shown in order 				to choose the directory where a screen shot *.bmp image is saved 			          at every cicle.
 
-**Language: **Spanish and English languages are available.
+**Language:**Spanish and English languages are available.
 
-**Help: **Makes to appear a description simillar to this.
+**Help:**Makes to appear a description simillar to this.
 ![screen shot 7](https://github.com/Xadnem53/OrgaSnismo0-Windows/blob/master/Screen-Shots/shot7.png)
 

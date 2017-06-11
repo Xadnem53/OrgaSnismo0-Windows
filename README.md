@@ -87,5 +87,5 @@ Automatic image saver: When it is activated, a directory chooser dialog is shown
 Language: Spanish and English languages are available.
 
 Help: Makes to appear a description simillar to this.
-
+![screen shot 7](https://github.com/Xadnem53/OrgaSnismo0-Windows/blob/master/Screen-Shots/shot7.png)
 

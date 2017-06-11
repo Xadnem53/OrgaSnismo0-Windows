@@ -6,7 +6,7 @@ There´s nothing special, it is one of the lots of versions of this game, but I 
 
 I would apreciate all the sugestions in order to improve the performance when the cell population is big ( more than 2000 ) wich happens mainly when some rules that make the population grow fast as 1357 / 1357 are stablised.
 
-Basic operation:
+**Basic operation:**
 
 When the game is started, the menú bar, wich functions are commented later, and a RadioButton with the label: 'Draw intial shape' are shown.
 
@@ -18,13 +18,13 @@ A dialog for to change the size of the grid shown then, appears by clicking this
 
 Clicking over the Accept button at the grid size dialog, make the following elements to appear:
 
-Grid:  A new yellow color cell, is created every time that one click over a grid square.
+**Grid: ** A new yellow color cell, is created every time that one click over a grid square.
 	A before created cell can be deleted just clicking over it again.
 
-Numeric up & down: With the label: 'Milliseconds', allows to change the cicle time set in 1 			    second by defect.
+**Numeric up & down:** With the label: 'Milliseconds', allows to change the cicle time set in 1 			    second by defect.
 			    If the time needed by the cpu to calculate the next state, is bigger 			    than the cicle time settled down, this is automaticaly changed by the 			    program.
 
-Accept button:  To start the cicles once the initial shape has benn drawn or loaded and the 		      cicle time stablished.
+**Accept button:**  To start the cicles once the initial shape has benn drawn or loaded and the 		      cicle time stablished.
 
 ![screen shot 3](https://github.com/Xadnem53/OrgaSnismo0-Windows/blob/master/Screen-Shots/shot3.png)
 
@@ -40,23 +40,23 @@ Also buttons for: Zoom, displacement and pause, appear.
 
 If the shape stabilizes or disappears, a message box is shown and the game is over.
 
-Menu Bar: 
+**Menu Bar:** 
 
-File:
+**File:**
 
-New: To start a new game. The rules and colors before stablished are kept.
+**New:** To start a new game. The rules and colors before stablished are kept.
 
-Save: Saves the current shape, rules and colors in a *.fm file.
+**Save: **Saves the current shape, rules and colors in a *.fm file.
 
-Load: Loads a shape with the rules and colors previously saved in a *.fm file.
+**Load:** Loads a shape with the rules and colors previously saved in a *.fm file.
 
-Save image: Saves a screen shot in a *.bmp file.
-
-
+**Save image: **Saves a screen shot in a *.bmp file.
 
 
 
-Controls:
+
+
+**Controls:**
 
 Displacememt buttons: To show or hide the displacement buttons.
 
@@ -64,7 +64,7 @@ Zoom buttons: To show or hide the zoom buttons
 
 Change period: To show or hide the numeric up & down with the cicle time.
 
-Options:
+**Options:**
 
 Change rules: A window appers and allow to change the rules.
 		  There are some rules examples with a brief description about their respective 		  efects, at the bottom of this window.
@@ -84,8 +84,8 @@ Beep: Activated by defect, makes a beep to sound at every cicle. It is useful in
 
 Automatic image saver: When it is activated, a directory chooser dialog is shown in order 				to choose the directory where a screen shot *.bmp image is saved 			          at every cicle.
 
-Language: Spanish and English languages are available.
+**Language: **Spanish and English languages are available.
 
-Help: Makes to appear a description simillar to this.
+**Help: **Makes to appear a description simillar to this.
 ![screen shot 7](https://github.com/Xadnem53/OrgaSnismo0-Windows/blob/master/Screen-Shots/shot7.png)
 

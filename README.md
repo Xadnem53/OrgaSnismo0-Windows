@@ -69,6 +69,7 @@ Options:
 Change rules: A window appers and allow to change the rules.
 		  There are some rules examples with a brief description about their respective 		  efects, at the bottom of this window.
 
+![screen shot 5](https://github.com/Xadnem53/OrgaSnismo0-Windows/blob/master/Screen-Shots/shot5.png)
 Back to default values: Returns to the rules, colors and cicle time by defect.
 
 Change colors: Shows a dialog with the following sentences:

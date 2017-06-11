@@ -9,7 +9,7 @@ I would apreciate all the sugestions in order to improve the performance when th
 Basic operation:
 
 When the game is started, the menú bar, wich functions are commented later, and a RadioButton with the label: 'Draw intial shape' are shown.
-
+¡[screen shot 1](https://github.com/Xadnem53/OrgaSnismo0-Windows/blob/master/ScreenShots/imagen-1.png)
 A dialog for to change the size of the grid shown then, appears by clicking this radioButton. The grid size is 30 pixels by defect.
 
 Clicking over the Accept button at the grid size dialog, make the following elements to appear:

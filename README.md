@@ -36,6 +36,8 @@ A cell borns, if it is adyacent to three alive cells.
 At the screen top left, the population ( number of alive cells ) and the number of cicles passed from the start, are shown.
 Also buttons for: Zoom, displacement and pause, appear.
 
+![screen shot 4](https://github.com/Xadnem53/OrgaSnismo0-Windows/blob/master/Screen-Shots/shot4.png)
+
 If the shape stabilizes or disappears, a message box is shown and the game is over.
 
 Menu Bar: 

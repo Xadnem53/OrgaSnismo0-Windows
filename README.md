@@ -10,7 +10,7 @@ Basic operation:
 
 When the game is started, the menú bar, wich functions are commented later, and a RadioButton with the label: 'Draw intial shape' are shown.
 
-![screen shot 1](https://github.com/Xadnem53/OrgaSnismo0-Windows/blob/master/ScreenShots/imagen-1.png)
+![screen shot 1](https://github.com/Xadnem53/OrgaSnismo0-Windows/blob/master/Screen-Shots/shot1.png)
 
 A dialog for to change the size of the grid shown then, appears by clicking this radioButton. The grid size is 30 pixels by defect.
 

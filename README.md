@@ -75,8 +75,8 @@ Back to default values: Returns to the rules, colors and cicle time by defect.
 Change colors: Shows a dialog with the following sentences:
 		     Line color, Alive cells color, Born cells color , Died cells color and 			     Background color.
 		     The color of every sentence corresponds to the color of each element. 			     Clicking over a sentence, makes a color selection dialog to appear.
-		     
-		     ![screen shot 6](https://github.com/Xadnem53/OrgaSnismo0-Windows/blob/master/Screen-Shots/shot6.png)
+	
+![screen shot 6](https://github.com/Xadnem53/OrgaSnismo0-Windows/blob/master/Screen-Shots/shot6.png)
 
 
 Beep: Activated by defect, makes a beep to sound at every cicle. It is useful in order to   	advice from a new screen redraw in a long time cicles.

@@ -26,6 +26,7 @@ Numeric up & down: With the label: 'Milliseconds', allows to change the cicle ti
 
 Accept button:  To start the cicles once the initial shape has benn drawn or loaded and the 		      cicle time stablished.
 
+![screen shot 3](https://github.com/Xadnem53/OrgaSnismo0-Windows/blob/master/Screen-Shots/shot3.png)
 
 Once the game is started, the shape is going changing according to the rules at every new cicle.
 The rules by defect, are the Conway´s rules i.e.:

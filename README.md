@@ -21,19 +21,19 @@ Clicking over the Accept button at the grid size dialog, make the following elem
 **Grid:** A new yellow color cell, is created every time that one click over a grid square.
 	A before created cell can be deleted just clicking over it again.
 
-**Numeric up & down:** With the label: 'Milliseconds', allows to change the cicle time set in 1 			    second by defect.
-			    If the time needed by the cpu to calculate the next state, is bigger 			    than the cicle time settled down, this is automaticaly changed by the 			    program.
+**Numeric up & down:** With the label: 'Milliseconds', allows to change the cycle time set in 1 			    second by defect.
+			    If the time needed by the cpu to calculate the next state, is bigger 			    than the cycle time settled down, this is automaticaly changed by the 			    program.
 
-**Accept button:**  To start the cicles once the initial shape has benn drawn or loaded and the 		      cicle time stablished.
+**Accept button:**  To start the cycles once the initial shape has benn drawn or loaded and the 		      cicle time stablished.
 
 ![screen shot 3](https://github.com/Xadnem53/OrgaSnismo0-Windows/blob/master/Screen-Shots/shot3.png)
 
-Once the game is started, the shape is going changing according to the rules at every new cicle.
+Once the game is started, the shape is going changing according to the rules at every new cycle.
 The rules by defect, are the Conway´s rules i.e.:
 A cell remains alive, if it is adyacent to two or three alive cells, otherwise the cell dies at the next cicle.
 A cell borns, if it is adyacent to three alive cells.
 
-At the screen top left, the population ( number of alive cells ) and the number of cicles passed from the start, are shown.
+At the screen top left, the population ( number of alive cells ) and the number of cycles passed from the start, are shown.
 Also buttons for: Zoom, displacement and pause, appear.
 
 ![screen shot 4](https://github.com/Xadnem53/OrgaSnismo0-Windows/blob/master/Screen-Shots/shot4.png)
@@ -62,7 +62,7 @@ Displacememt buttons: To show or hide the displacement buttons.
 
 Zoom buttons: To show or hide the zoom buttons
 
-Change period: To show or hide the numeric up & down with the cicle time.
+Change period: To show or hide the numeric up & down with the cycle time.
 
 **Options:**
 
@@ -79,7 +79,7 @@ Change colors: Shows a dialog with the following sentences:
 ![screen shot 6](https://github.com/Xadnem53/OrgaSnismo0-Windows/blob/master/Screen-Shots/shot6.png)
 
 
-Beep: Activated by defect, makes a beep to sound at every cicle. It is useful in order to   	advice from a new screen redraw in a long time cicles.
+Beep: Activated by defect, makes a beep to sound at every cycle. It is useful in order to   	advice from a new screen redraw in a long time cycles.
 
 
 Automatic image saver: When it is activated, a directory chooser dialog is shown in order 				to choose the directory where a screen shot *.bmp image is saved 			          at every cicle.

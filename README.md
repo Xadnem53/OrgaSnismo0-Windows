@@ -30,8 +30,8 @@ Clicking over the Accept button at the grid size dialog, make the following elem
 
 Once the game is started, the shape is going changing according to the rules at every new cycle.
 The rules by defect, are the Conway´s rules i.e.:
-A cell remains alive, if it is adyacent to two or three alive cells, otherwise the cell dies at the next cicle.
-A cell borns, if it is adyacent to three alive cells.
+A cell remains alive, if it is adjacent to two or three alive cells, otherwise the cell dies at the next cicle.
+A cell borns, if it is adjacent to three alive cells.
 
 At the screen top left, the population ( number of alive cells ) and the number of cycles passed from the start, are shown.
 Also buttons for: Zoom, displacement and pause, appear.

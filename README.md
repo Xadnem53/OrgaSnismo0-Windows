@@ -22,9 +22,9 @@ Clicking over the Accept button at the grid size dialog, make the following elem
 	A before created cell can be deleted just clicking over it again.
 
 **Numeric up & down:** With the label: 'Milliseconds', allows to change the cycle time set in 1 			    second by defect.
-			    If the time needed by the cpu to calculate the next state, is bigger 			    than the cycle time settled down, this is automaticaly changed by the 			    program.
+			    If the time needed by the cpu to calculate the next state, is bigger 			    than the cycle time settled down, this is automatically changed by the 			    program.
 
-**Accept button:**  To start the cycles once the initial shape has benn drawn or loaded and the 		      cicle time stablished.
+**Accept button:**  To start the cycles once the initial shape has been drawn or loaded and the 		      cicle time established.
 
 ![screen shot 3](https://github.com/Xadnem53/OrgaSnismo0-Windows/blob/master/Screen-Shots/shot3.png)
 

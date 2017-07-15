@@ -1,20 +1,20 @@
-::Evitar que se muestre la ejecucion de los comandos en consola
+::Avoid commands to be shown
 @ECHO off
-::Comprobar si existe el directorio: C:/Windows/Microsoft.NET/Framework64
-::Asignar a una variable, la ruta al directorio anterior
-SET ruta64=C:\Windows\Microsoft.NET\Framework64
+::Only if C:/Windows/Microsoft.NET/Framework64 exists
 IF EXIST %ruta64% (
-::Moverse al directorio anterior
+::Asign the previous path to a variable
+SET ruta64=C:\Windows\Microsoft.NET\Framewrk64
+::Move to the previous path
 CD %ruta64% 
-::Meter la lista de subdirectorios ordenados alfabeticamente por su nombre, en un fichero de texto temporal en la carpeta del usuario
+::Save the subdirectories list alphabeticaly ordered into a temp.txt file at the user directory.
 DIR /o:n > %USERPROFILE%\temp.txt 
-::Meter las lineas del fichero de texto anterior que contengan la palabra DIR en mayusculas en un fichero temp2
+::Find the previous text file lines that contains the word "DIR" and save them into a temp2.txt file
 TYPE %USERPROFILE%\temp.txt | FIND "DIR" > %USERPROFILE%\temp2.txt
-::Meter las lineas del fichero anterior que contengan la letra v minuscula en el fichero temp
-TYPE %USERPROFILE%\temp2.txt | FIND "v" > %USERPROFILE%\temp.txt
-::Meter en una variable la ultima fila del fichero temp.txt
+::Overwrite the previous temp44.txt file with the lines in temp2.txt which contains the 'v' character 
+TYPE %USERPROFILE%\temp2.txt | FIND "v" > %USERPROFILE%\text
+::Set into a variable 'directorio', the fourth word at the file temp.txt last line 
 	FOR /F "TOKENS=4 DELIMS= " %%x in (%USERPROFILE%\temp.txt) do (
-	@SET directorio=%%x
+	SET directorio=%%x
 	)
 	ECHO %directorio%
 )

@@ -4,7 +4,7 @@
 IF EXIST %ruta64% (
 ::Asign the previous path to a variable
 SET ruta64=C:\Windows\Microsoft.NET\Framewrk64
-::Move to the previous path
+::Move on to the previous path
 CD %ruta64% 
 ::Save the subdirectories list alphabeticaly ordered into a temp.txt file at the user directory.
 DIR /o:n > %USERPROFILE%\temp.txt 

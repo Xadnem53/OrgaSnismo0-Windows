@@ -11,7 +11,7 @@ Save the list of subdirectories sorted alphabetically into a temp.txt file in th
 DIR /o:n > %USERPROFILE%\temp.txt 
 ::Find the previous text file lines that contains the word "DIR" and save them into a temp2.txt file
 TYPE %USERPROFILE%\temp.txt | FIND "DIR" > %USERPROFILE%\temp2.txt
-::Overwrite the previous temp44.txt file with the lines in temp2.txt which contains the 'v' character 
+::Overwrite the previous temp.txt file with the lines in temp2.txt which contains the 'v' character 
 TYPE %USERPROFILE%\temp2.txt | FIND "v" > %USERPROFILE%\text
 ::Set into a variable 'directorio', the fourth word at the file temp.txt last line 
 	FOR /F "TOKENS=4 DELIMS= " %%x in (%USERPROFILE%\temp.txt) do (

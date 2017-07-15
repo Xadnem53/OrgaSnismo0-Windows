@@ -6,8 +6,7 @@ IF EXIST %ruta64% (
 SET ruta64=C:\Windows\Microsoft.NET\Framewrk64
 ::Move on to the previous path
 CD %ruta64% 
-::
-Save the list of subdirectories sorted alphabetically into a temp.txt file in the user directory.
+::Save the list of subdirectories sorted alphabetically into a temp.txt file in the user directory.
 DIR /o:n > %USERPROFILE%\temp.txt 
 ::Find the previous text file lines that contains the word "DIR" and save them into a temp2.txt file
 TYPE %USERPROFILE%\temp.txt | FIND "DIR" > %USERPROFILE%\temp2.txt

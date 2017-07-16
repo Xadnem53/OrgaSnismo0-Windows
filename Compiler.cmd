@@ -14,7 +14,7 @@ TYPE %USERPROFILE%\temp.txt | FIND "DIR" > %USERPROFILE%\temp2.txt
 TYPE %USERPROFILE%\temp2.txt | FIND "v" > %USERPROFILE%\text
 ::Set into a variable 'directorio', the fourth word at the file temp.txt's last line 
 	FOR /F "TOKENS=4 DELIMS= " %%x in (%USERPROFILE%\temp.txt) do (
-	SET directorio=%%x
+	SET directory=%%x
 	)
-	ECHO %directorio%
+	ECHO %directory%
 )

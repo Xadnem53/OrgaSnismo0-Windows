@@ -4,6 +4,8 @@ There´s an extensive information in Wikipedia.
 
 There´s nothing special, it is one of the lots of versions of this game, but I believe to have gotten an acceptable performance, after to try many algorithms in order to get the next shape at every cicle.
 
+It´s easy to compile OrgaSnismo0 for whatever windows version by executing the ToCompile.bat batch file. 
+
 I would apreciate all the sugestions in order to improve the performance when the cell population is big ( more than 2000 ) wich happens mainly when some rules that make the population grow fast as 1357 / 1357 are stablised.
 
 **Basic operation:**
